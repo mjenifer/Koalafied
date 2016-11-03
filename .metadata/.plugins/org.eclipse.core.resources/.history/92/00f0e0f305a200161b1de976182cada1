@@ -1,0 +1,27 @@
+import java.util.GregorianCalendar;
+
+/**
+ * 
+ */
+
+/**
+ * @author Xing Chen
+ *
+ */
+class item {
+
+	private String itemName;
+	private double cost;
+	private double salePrice;
+	private double MSRP;
+	private GregorianCalendar expirationDate;
+	
+	
+	private item(){
+		itemName = "";
+		cost = 00.00;	
+		salePrice = 00.00;
+		MSRP = 00.00;
+		expirationDate = new GregorianCalendar(2016,12,31);
+	}
+}
